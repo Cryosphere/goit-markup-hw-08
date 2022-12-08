@@ -59,4 +59,13 @@
     font-size: 14px;
     line-height: calc(24 / 14);
     color: var(--footer-contact-color);
+
+    transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: var(--cubic-bezier);
+    
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
 }
