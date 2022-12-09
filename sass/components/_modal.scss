@@ -17,6 +17,10 @@
       }
 }
 
+.modal_window{
+    overflow-y: auto;
+}
+
 .backdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
@@ -28,6 +32,7 @@
     
     padding: 40px;
 
+    
     background-color: var(--primary-white-coor);
     text-align: center;
 
@@ -92,7 +97,7 @@
     border: 1px solid var(--accent-color);
 }
     &:focus-within > textarea,
-    &:hover > textarean {
+    &:hover > textarea {
     border: 1px solid var(--accent-color);
 }
 }

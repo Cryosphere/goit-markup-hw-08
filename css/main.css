@@ -1255,6 +1255,10 @@ button {
   }
 }
 
+.modal_window {
+  overflow-y: auto;
+}
+
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -1322,7 +1326,7 @@ button {
 .modal__label:focus-within > input, .modal__label:hover > input {
   border: 1px solid var(--accent-color);
 }
-.modal__label:focus-within > textarea, .modal__label:hover > textarean {
+.modal__label:focus-within > textarea, .modal__label:hover > textarea {
   border: 1px solid var(--accent-color);
 }
 
@@ -1508,7 +1512,7 @@ textarea:focus-visible {
   padding-bottom: 48px;
   padding-left: 40px;
   background-color: #ffffff;
-  overflow-y: scroll;
+  overflow-y: auto;
   z-index: 999;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
