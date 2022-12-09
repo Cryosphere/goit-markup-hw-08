@@ -81,14 +81,14 @@
 
 .social__link {
     color: var(--social-color);
-    background-color: var(--primary-white-coor);
+    background-color: var(--primary-white-color);
 
     transition: background-color var(--time) var(--cubic-bezier), color var(--time) var(--cubic-bezier);
 }
 
     .social__link:hover,
     .social__link:focus {
-        color: var(--primary-white-coor);
+        color: var(--primary-white-color);
         background-color: var(--accent-color);
 
 }

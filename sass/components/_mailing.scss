@@ -1,4 +1,4 @@
-.mailing {
+.subscribe {
     @media screen  and (max-width: 767px) {
         margin-top: 60px;
     }
@@ -11,7 +11,7 @@
 
 }
 
-.mailing__after {
+.subscribe__after {
     margin-bottom: 20px;
 
     font-weight: 700;
@@ -19,10 +19,10 @@
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-white-coor);
+    color: var(--primary-white-color);
 }
 
-.mailing__form {
+.subscribe__form {
     display: flex;
     
     @media screen  and (max-width: 1199px) {
@@ -31,7 +31,7 @@
     }
 }
 
-.mailing  input {
+.subscribe  input {
     padding: 0;
     padding-left: 16px;
 
@@ -58,7 +58,7 @@
         width: 358px;
     }
 }
-.mailing__email {
+.subscribe__email {
     width: 100%;
     height: 50px;
     &:hover, 
@@ -74,7 +74,7 @@
 }
 
 
-.mailing__btn {
+.subscribe__btn {
     position: relative;
     width: 200px;
     height: 50px;
@@ -95,9 +95,9 @@
     }
 }
 
-.mailing__icon {
+.subscribe__icon {
     position: absolute;
     top: 13px;
     right: 28px;
-    fill: var(--primary-white-coor);
+    fill: var(--primary-white-color);
 }
