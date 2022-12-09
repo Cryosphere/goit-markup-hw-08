@@ -1489,14 +1489,14 @@ textarea:focus-visible {
   opacity: 1;
 }
 
-.checkbox__span, .checkbox__span--link {
+.checkbox__text, .checkbox__text--link {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
 }
 
-.checkbox__span--link {
+.checkbox__text--link {
   text-decoration: underline;
   color: var(--accent-color);
 }
